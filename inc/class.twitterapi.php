@@ -13,7 +13,7 @@ require_once "twitteroauth/config.php";
 		public $dbMap = array(
 			"id_str"       => "tweetid",
 			"created_at"   => "time",
-			"text"         => "text",
+			"full_text"    => "text",
 			"source"       => "source",
 			"coordinates"  => "coordinates",
 			"geo"          => "geo",

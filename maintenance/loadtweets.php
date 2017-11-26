@@ -114,7 +114,8 @@
                 $userparam         => $uservalue,
                 'include_rts'      => true,
                 'include_entities' => true,
-                'count'            => $maxCount
+                'count'            => $maxCount,
+                'tweet_mode'       => 'extended'
             );
 
             if($sinceID){
