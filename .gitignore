@@ -2,3 +2,9 @@ loadlog.txt
 
 /.idea/
 .DS_Store
+*~
+
+# Annoying, as the config.php has to be there for Tweetnest to work,
+# but I don't want to commit real config to git accidentally. Have
+# made a clean copy of this as config.php.example.
+inc/config.php
